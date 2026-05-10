@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "redhat.vscode-yaml", // YAML intellisense
+    "davidmoseley.markdown-lint", // MD intellisense
+    "wytheglobal.pdfmore" // Watch PDF in VS code
+  ]
+}

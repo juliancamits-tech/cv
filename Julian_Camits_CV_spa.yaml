@@ -1,0 +1,215 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Julian Camits
+  headline: Senior Backend Engineer & Software Architect
+  location: Buenos Aires, Argentina
+  email: juliancamits@gmail.com
+  social_networks:
+    - network: LinkedIn
+      username: JulianCamits
+    - network: GitHub
+      username: juliancamits-tech
+  sections:
+    resumen_profesional:
+      - >
+        Senior Backend Engineer con más de 8 años de experiencia diseñando y construyendo backends escalables, principalmente con tecnologías .NET. 
+        Especialista en sistemas financieros, arquitecturas cloud en Azure y modernización de sistemas legacy hacia microservicios optimizados y de alta disponibilidad.
+    experiencia:
+      - company: Remitee
+        position: Software Architect / Backend Developer
+        location: Buenos Aires, Argentina
+        start_date: 2023-03
+        end_date: 2026-04
+        highlights:
+          - Lideré la estandarización de las prácticas de desarrollo mediante la creación de paquetes NuGet con SourceGenerators y Analyzers, mejorando la coherencia del código.
+          - Diseño y desarrollo de servicios backend para integraciones con proveedores y mantenimiento de APIs RESTful para clientes externos.
+          - Soporte técnico para la integración de APIs a clientes externos siguiendo buenas prácticas para una integración óptima.
+          - Participé en la evaluación técnica y la incorporación de nuevos colaboradores para el equipo.
+      - company: Mercado Abierto Electrónico
+        position: Software Architect / Backend Developer
+        location: Buenos Aires, Argentina
+        start_date: 2022-02
+        end_date: 2023-03
+        highlights:
+          - Diseño e implementación de la integración entre los sistemas de Bloomberg y el Banco Central de Argentina (BCRA) utilizando el protocolo FIX.
+          - Definición de la arquitectura del sistema, garantizando la escalabilidad y una comunicación de baja latencia.
+          - Desarrollo y mantenimiento de APIs para el intercambio de datos financieros y operaciones administrativas.
+      - company: Contabilium
+        position: Backend Developer
+        location: Buenos Aires, Argentina
+        start_date: 2021-04
+        end_date: 2022-02
+        highlights:
+          - Construcción de la migración del monolito legacy MVC a una arquitectura moderna de APIs y microservicios.
+          - Mantenimiento y mejoras de sistema legacy solucionando fixes críticos y agregando nuevas funcionalidades.
+      - company: IT Desarrollo
+        position: Backend Developer
+        location: Buenos Aires, Argentina
+        start_date: 2016-11
+        end_date: 2021-04
+        highlights:
+          - Desarrollo y mantenimiento del módulo para sistemas de procesamiento de datos financieros (Bureau de crédito).
+          - Construcción de procesos ETL para importar datos financieros de clientes bancarios.
+          - Implementación de MSMQ para procesamiento asincrónico basado en mensajería.
+    educacion:
+      - institution: Universidad de Palermo
+        area: Tecnología de la Información
+        degree: Licenciado
+        start_date: 2017
+        end_date: 2019
+    skills:
+      - label: Lenguajes
+        details: C#, JavaScript, Python
+      - label: Frameworks e Infraestructura
+        details: .NET 10, .NET Core, ASP.NET MVC, Entity Framework, Azure Service Bus, Kafka, Keycloak
+      - label: Arquitectura y Patrones
+        details: Microservicios, REST APIs, ETL, CQRS, Mediator, SourceGenerators, Analyzers
+      - label: Bases de Datos
+        details: Microsoft SQL Server (MSSQL), Postgres, Mongo
+      - label: Protocolos y Herramientas
+        details: FIX, gRPC, MSMQ, Git, Swagger (OpenAPI), NuGet, JSON Schema
+    certificaciones:
+      - bullet: Google Workspace (2026)
+      - bullet: Google Cloud Engineering (2025)
+      - bullet: PMI Certificate & ERP Implementer Certification (2016)
+      - bullet: Microsoft Visual Studio Certification (2015)
+      - bullet: IBM DB2 Database Design & Android Developer (2015)
+    idiomas:
+      - label: Español
+        details: Nativo
+      - label: Inglés
+        details: Intermedio
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+      headline: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+    font_size:
+      body: 10pt
+      name: 30pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.4em
+    small_caps:
+      name: false
+      headline: false
+      connections: false
+      section_titles: false
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+  links:
+    underline: false
+    show_external_link_icon: false
+  header:
+    alignment: center
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.7cm
+    space_below_headline: 0.7cm
+    space_below_connections: 0.7cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ''
+      space_between_connections: 0.5cm
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.5cm
+    space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 1.2em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in:
+      - experience
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: true
+    degree_width: 1cm
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      bullet: •
+      nested_bullet: •
+      space_left: 0.15cm
+      space_above: 0cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.5em
+  templates:
+    footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, AREA
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: '**DEGREE**'
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column: |-
+        **COMPANY**, POSITION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        SUMMARY
+        AUTHORS
+        URL (JOURNAL)
+      date_and_location_column: DATE
+locale:
+  language: spanish
