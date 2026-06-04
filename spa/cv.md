@@ -7,23 +7,43 @@
 
 
 # Resumen Profesional
-Senior Backend Engineer con más de 8 años de experiencia diseñando y construyendo backends escalables, principalmente con tecnologías .NET.  Especialista en sistemas financieros, arquitecturas cloud en Azure y modernización de sistemas legacy hacia microservicios optimizados y de alta disponibilidad.
+Senior Backend Engineer con más de 8 años de experiencia diseñando y construyendo backends escalables, principalmente con tecnologías .NET y Python.  Especialista en sistemas financieros, arquitecturas cloud en Azure y modernización de sistemas legacy hacia microservicios optimizados y de alta disponibilidad.
 
 
 # Experiencia
-## **Remitee**, Software Architect / Backend Developer
+## **Remitee**, Software Architect
 
 Buenos Aires, Argentina
 
-Mar 2023 – Abr 2026
+May 2025 – Abr 2026
 
-- Lideré la estandarización de las prácticas de desarrollo mediante la creación de paquetes NuGet con SourceGenerators y Analyzers, mejorando la coherencia del código.
+- Participé en procesos de selección para roles de arquitectura y liderazgo técnico, evaluando conocimientos de arquitectura de software, patrones de diseño, escalabilidad y toma de decisiones técnicas.
 
-- Diseño y desarrollo de servicios backend para integraciones con proveedores y mantenimiento de APIs RESTful para clientes externos.
+- Diseñé una plataforma de infraestructura compartida compuesta por más de 10 paquetes NuGet reutilizables.
 
-- Soporte técnico para la integración de APIs a clientes externos siguiendo buenas prácticas para una integración óptima.
+- Definí abstracciones para servicios cloud (mensajería, persistencia y componentes transversales) reduciendo el acoplamiento a proveedores específicos.
 
-- Participé en la evaluación técnica y la incorporación de nuevos colaboradores para el equipo.
+- Implementé una arquitectura extensible que permitió incorporar tecnologías como Azure Service Bus y Kafka con cambios mínimos en las aplicaciones consumidoras.
+
+- Implementé una capa de compatibilidad entre IdentityServer y Keycloak que habilitó la migración automática de usuarios durante el proceso de autenticación, preservando credenciales, claims y permisos existentes.
+
+
+
+## **Remitee**, Backend Developer
+
+Buenos Aires, Argentina
+
+Mar 2023 – May 2025
+
+- Desarrollé un framework interno distribuido como paquetes NuGet para encapsular infraestructura común y acelerar la construcción de nuevos servicios.
+
+- Definí estándares para el desarrollo de servicios de integración, unificando patrones de mensajería, persistencia y manejo de errores.
+
+- Diseñé e implementé microservicios de integración con proveedores externos, comunicados mediante Service Bus con el motor central de procesamiento, incorporando nuevos partners y optimizando integraciones existentes.
+
+- Asesoré a equipos técnicos de clientes en la integración de APIs REST, incluyendo autenticación, secuencia de llamadas, manejo de errores y optimización de consumo.
+
+- Participé en procesos de selección técnica para posiciones de desarrollo, incluyendo revisión de CVs, entrevistas técnicas y evaluación de competencias en .NET, bases de datos y diseño de software.
 
 
 
@@ -77,18 +97,29 @@ Nov 2016 – Abr 2021
 
 
 
+## **O.R.T. Instituto Superior**, Programación
+
+**Analista en Sistemas**
+
+
+2012 – 2016
+
+
+
 # Skills
-**Lenguajes:** C#, JavaScript, Python
+**Lenguajes:** C#, JavaScript, Python, Java
 
-**Frameworks e Infraestructura:** .NET 10, .NET Core, ASP.NET MVC, Entity Framework, Azure Service Bus, Kafka, Keycloak
+**Frameworks e Infraestructura:** .NET Framework, .NET Core, ASP.NET MVC, Entity Framework, Azure Service Bus, Kafka, Keycloak, KeyVault, Azure DevOps, Azure Functions, Azure App Services
 
-**Arquitectura y Patrones:** Microservicios, REST APIs, ETL, CQRS, Mediator, SourceGenerators, Analyzers
+**Arquitectura y Patrones:** Microservicios, REST APIs, ETL, CQRS, Mediator, SourceGenerators, Analyzers, Clean Architecture, Unite Test, DDD, Event Sourcing, Integraciones
 
-**Bases de Datos:** Microsoft SQL Server (MSSQL), Postgres, Mongo
+**Bases de Datos:** Microsoft SQL Server (MSSQL), Postgres, MongoDB, Redis, MySQL, SQLite, ElasticSearch
 
 **Protocolos y Herramientas:** FIX, gRPC, MSMQ, Git, Swagger (OpenAPI), NuGet, JSON Schema
 
 # Certificaciones
+- IA Para Todos (2026)
+
 - Google Workspace (2026)
 
 - Google Cloud Engineering (2025)
@@ -102,4 +133,4 @@ Nov 2016 – Abr 2021
 # Idiomas
 **Español:** Nativo
 
-**Inglés:** Intermedio
+**Inglés:** Intermedio (B1-B2)

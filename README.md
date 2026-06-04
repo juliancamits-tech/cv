@@ -8,6 +8,8 @@
 Puedes ver las versiones web interactivas y descargar los PDFs aquí:
 
 👉 **[Ver Currículum Online](https://juliancamits-tech.github.io/cv/)** *(Disponible en Español e Inglés)*
+👉 **[PDF en español](/spa/cv.pdf)
+👉 **[PDF en inglés](/eng/cv.pdf)
 
 ## 🛠️ Cómo funciona
 Este repositorio utiliza un enfoque de **"Resume as Code"**:

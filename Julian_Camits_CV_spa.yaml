@@ -12,19 +12,31 @@ cv:
   sections:
     resumen_profesional:
       - >
-        Senior Backend Engineer con más de 8 años de experiencia diseñando y construyendo backends escalables, principalmente con tecnologías .NET. 
+        Senior Backend Engineer con más de 8 años de experiencia diseñando y construyendo backends escalables, principalmente con tecnologías .NET y Python. 
         Especialista en sistemas financieros, arquitecturas cloud en Azure y modernización de sistemas legacy hacia microservicios optimizados y de alta disponibilidad.
     experiencia:
       - company: Remitee
-        position: Software Architect / Backend Developer
+        position: Software Architect
         location: Buenos Aires, Argentina
-        start_date: 2023-03
+        start_date: 2025-05
         end_date: 2026-04
         highlights:
-          - Lideré la estandarización de las prácticas de desarrollo mediante la creación de paquetes NuGet con SourceGenerators y Analyzers, mejorando la coherencia del código.
-          - Diseño y desarrollo de servicios backend para integraciones con proveedores y mantenimiento de APIs RESTful para clientes externos.
-          - Soporte técnico para la integración de APIs a clientes externos siguiendo buenas prácticas para una integración óptima.
-          - Participé en la evaluación técnica y la incorporación de nuevos colaboradores para el equipo.
+          - Participé en procesos de selección para roles de arquitectura y liderazgo técnico, evaluando conocimientos de arquitectura de software, patrones de diseño, escalabilidad y toma de decisiones técnicas.
+          - Diseñé una plataforma de infraestructura compartida compuesta por más de 10 paquetes NuGet reutilizables.
+          - Definí abstracciones para servicios cloud (mensajería, persistencia y componentes transversales) reduciendo el acoplamiento a proveedores específicos.
+          - Implementé una arquitectura extensible que permitió incorporar tecnologías como Azure Service Bus y Kafka con cambios mínimos en las aplicaciones consumidoras.
+          - Implementé una capa de compatibilidad entre IdentityServer y Keycloak que habilitó la migración automática de usuarios durante el proceso de autenticación, preservando credenciales, claims y permisos existentes.          
+      - company: Remitee
+        position: Backend Developer
+        location: Buenos Aires, Argentina
+        start_date: 2023-03
+        end_date: 2025-05
+        highlights:
+          - Desarrollé un framework interno distribuido como paquetes NuGet para encapsular infraestructura común y acelerar la construcción de nuevos servicios.
+          - Definí estándares para el desarrollo de servicios de integración, unificando patrones de mensajería, persistencia y manejo de errores.
+          - Diseñé e implementé microservicios de integración con proveedores externos, comunicados mediante Service Bus con el motor central de procesamiento, incorporando nuevos partners y optimizando integraciones existentes.
+          - Asesoré a equipos técnicos de clientes en la integración de APIs REST, incluyendo autenticación, secuencia de llamadas, manejo de errores y optimización de consumo.
+          - Participé en procesos de selección técnica para posiciones de desarrollo, incluyendo revisión de CVs, entrevistas técnicas y evaluación de competencias en .NET, bases de datos y diseño de software.
       - company: Mercado Abierto Electrónico
         position: Software Architect / Backend Developer
         location: Buenos Aires, Argentina
@@ -57,18 +69,24 @@ cv:
         degree: Licenciado
         start_date: 2017
         end_date: 2019
+      - institution: O.R.T. Instituto Superior
+        area: Programación
+        degree: Analista en Sistemas
+        start_date: 2012
+        end_date: 2016
     skills:
       - label: Lenguajes
-        details: C#, JavaScript, Python
+        details: C#, JavaScript, Python, Java
       - label: Frameworks e Infraestructura
-        details: .NET 10, .NET Core, ASP.NET MVC, Entity Framework, Azure Service Bus, Kafka, Keycloak
+        details: .NET Framework, .NET Core, ASP.NET MVC, Entity Framework, Azure Service Bus, Kafka, Keycloak, KeyVault, Azure DevOps, Azure Functions, Azure App Services
       - label: Arquitectura y Patrones
-        details: Microservicios, REST APIs, ETL, CQRS, Mediator, SourceGenerators, Analyzers
+        details: Microservicios, REST APIs, ETL, CQRS, Mediator, SourceGenerators, Analyzers, Clean Architecture, Unite Test, DDD, Event Sourcing, Integraciones
       - label: Bases de Datos
-        details: Microsoft SQL Server (MSSQL), Postgres, Mongo
+        details: Microsoft SQL Server (MSSQL), Postgres, MongoDB, Redis, MySQL, SQLite, ElasticSearch
       - label: Protocolos y Herramientas
         details: FIX, gRPC, MSMQ, Git, Swagger (OpenAPI), NuGet, JSON Schema
     certificaciones:
+      - bullet: IA Para Todos (2026)
       - bullet: Google Workspace (2026)
       - bullet: Google Cloud Engineering (2025)
       - bullet: PMI Certificate & ERP Implementer Certification (2016)
@@ -78,7 +96,7 @@ cv:
       - label: Español
         details: Nativo
       - label: Inglés
-        details: Intermedio
+        details: Intermedio (B1-B2)
 design:
   theme: classic
   page:
